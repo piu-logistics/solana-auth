@@ -10,7 +10,7 @@ require("@solana/wallet-adapter-react-ui/styles.css");
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <SolanaAuthProvider
-      authDomain="example.xyz"
+      authDomain="assets.gzat.org/treasury"
       requestUrl="/api/solana-auth/getauthchallenge"
       callbackUrl="/api/solana-auth/completeauthchallenge"
       onAuthCallback={signIn}
